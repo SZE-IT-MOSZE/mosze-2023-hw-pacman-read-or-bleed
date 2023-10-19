@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b1fe81b701a2b042964d8520b14a932
+guid: 4dde832f8dc06bf4dba9942ffc76cdd0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NecromancerDownIdle_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda8f2e349340f24dab173debfcd7b22
+      internalID: 280400623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecromancerDownIdle_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 7
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de45cd1533a5664d991c6c51f02c628
+      internalID: 1028505671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecromancerDownIdle_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 7
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324a7fef62eea604ca90e150e2c3b33c
+      internalID: -1003303325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecromancerDownIdle_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 7
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d702d04af9cc14d889a550efbf2a44
+      internalID: 1407170602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecromancerDownIdle_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 7
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ce9d02b1716c748900c550d2c96642
+      internalID: 1941062561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecromancerDownIdle_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 6
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa46ca1a18c09074b925b4e4fb632c45
+      internalID: 711449235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NecromancerDownIdle_0: 280400623
+      NecromancerDownIdle_1: 1028505671
+      NecromancerDownIdle_2: -1003303325
+      NecromancerDownIdle_3: 1407170602
+      NecromancerDownIdle_4: 1941062561
+      NecromancerDownIdle_5: 711449235
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
