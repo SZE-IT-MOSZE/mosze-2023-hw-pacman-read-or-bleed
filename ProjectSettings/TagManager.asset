@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
+  - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - Water
   - UI
   - Walls
-  - 
+  - Bullet
   - 
   - 
   - 
@@ -54,6 +56,12 @@ TagManager:
   - name: Wall
     uniqueID: 1410833729
     locked: 0
-  - name: New Layer 5
+  - name: PlayerAttack
+    uniqueID: 1797133793
+    locked: 0
+  - name: Enemy
+    uniqueID: 1246337513
+    locked: 0
+  - name: Player
     uniqueID: 699098985
     locked: 0

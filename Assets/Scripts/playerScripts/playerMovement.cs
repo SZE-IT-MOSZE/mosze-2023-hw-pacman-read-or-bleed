@@ -15,6 +15,9 @@ public class PlayerMovement : MonoBehaviour
     public float forceDamping;
     public Animator animator;
 
+public Transform spotlightTransform; // Drag and drop the 2D Light GameObject here
+    public Vector3 offset; // The offset to adjust the spotlight's position
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,11 @@ public class PlayerMovement : MonoBehaviour
 
         // Set the "Speed" parameter based on the magnitude of PlayerInput
         animator.SetFloat("Speed", PlayerInput.sqrMagnitude);
+
+        // Calculate the desired spotlight position
+        Vector3 characterCenter = transform.position + offset;
+        characterCenter.z = spotlightTransform.position.z; // Preserve the original z-position
+        spotlightTransform.position = characterCenter;
     }
 
      void FixedUpdate()
