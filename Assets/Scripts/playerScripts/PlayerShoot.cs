@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerShoot : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class PlayerShoot : MonoBehaviour
 
     private bool _fireContinuously;
     private float _lastFireTime;
+
+    public UnityEvent shootEvent;
 
     void Update()
     {
@@ -39,6 +42,9 @@ public class PlayerShoot : MonoBehaviour
                 FireBullet();
 
                 _lastFireTime = Time.time;
+
+                // Invoke the shoot events
+                InvokeShootEvents();
             }
         }
     }
@@ -60,5 +66,11 @@ public class PlayerShoot : MonoBehaviour
 
         // Set the bullet's velocity to the normalized direction times the speed
         rigidbody.velocity = _bulletSpeed * fireDirection;
+    }
+
+    private void InvokeShootEvents()
+    {
+            shootEvent.Invoke();
+        
     }
 }

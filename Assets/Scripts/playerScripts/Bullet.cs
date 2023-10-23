@@ -16,17 +16,23 @@ public class Bullet : MonoBehaviour
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision.CompareTag("Wall"))
     {
-        if (collision.CompareTag("Wall"))
-        {
-            // Destroy the bullet when it hits a wall
-            Destroy(gameObject);
-        }
-        // else if (collision.GetComponent<EnemyMovement>())
-        // {
-        //     Destroy(collision.gameObject);
-        //     Destroy(gameObject);
-        // }
-         Debug.DrawLine(transform.position, collision.transform.position, Color.red, 1f);
+        // Destroy the bullet when it hits a wall
+        Destroy(gameObject);
     }
+    else if (collision.CompareTag("Enemy"))
+    {
+        // Reduce enemy's health by 10 when hit by the bullet
+        HealthController enemyHealth = collision.GetComponent<HealthController>();
+        if (enemyHealth != null)
+        {
+            enemyHealth.TakeDamage(10);
+        }
+
+        // Destroy the bullet
+        Destroy(gameObject);
+    }
+}
 }

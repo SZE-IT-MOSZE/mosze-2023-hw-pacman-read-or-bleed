@@ -27,9 +27,11 @@ public class HealthController : MonoBehaviour
 
     public UnityEvent OnHealthChanged;
 
+    private bool isDead = false; // Flag to track if the character is already dead.
+
     public void TakeDamage(float damageAmount)
     {
-        if (_currentHealth == 0)
+        if (_currentHealth == 0 || isDead)
         {
             return;
         }
@@ -50,6 +52,7 @@ public class HealthController : MonoBehaviour
 
         if (_currentHealth == 0)
         {
+            isDead = true; // Set the flag to prevent further death event invocation.
             OnDied.Invoke();
         }
         else
