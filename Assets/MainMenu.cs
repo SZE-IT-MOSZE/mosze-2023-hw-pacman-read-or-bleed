@@ -13,6 +13,6 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("QUIT!"); //Test commit for git
-        Application.Quit();
+        Application.Quit(); //asd
     }
 }
