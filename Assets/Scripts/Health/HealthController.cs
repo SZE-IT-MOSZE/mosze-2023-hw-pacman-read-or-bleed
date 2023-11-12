@@ -10,6 +10,11 @@ public class HealthController : MonoBehaviour
 
     [SerializeField]
     private float _maximumHealth;
+    
+    public float CurrentHealth // Make the health value accessible
+    {
+        get { return _currentHealth; }
+    }
 
     public float RemainingHealthPercentage
     {

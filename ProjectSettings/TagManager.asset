@@ -9,6 +9,10 @@ TagManager:
   - Enemy
   - Item
   - Message
+  - HealthHUD
+  - DamageHUD
+  - SpeedHUD
+  - VisionHUD
   layers:
   - Default
   - TransparentFX
