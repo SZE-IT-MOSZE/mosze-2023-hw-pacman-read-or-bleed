@@ -9,7 +9,7 @@ public class EnemyAttack : MonoBehaviour
     [SerializeField]
     private float _damageAmount;
     public UnityEvent attackEvent;
-    public Transform player; // Reference to the player's transform.
+    private Transform player; // Reference to the player's transform.
 
     private void Start()
     {

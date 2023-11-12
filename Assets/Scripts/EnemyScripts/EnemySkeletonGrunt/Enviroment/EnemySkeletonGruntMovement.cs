@@ -18,10 +18,12 @@ public class EnemyMovement : MonoBehaviour
     private Vector2 targetDirection;
     private float changeDirectionCooldown;
 
-    public Transform player; // Reference to the player's Transform.
+    private Transform player; // Reference to the player's Transform.
 
     [SerializeField]
     private SkeletonGruntAwarenessController skeletonGruntAwarenessController;
+
+    private bool hasPlayedDeathAnimation = false;
 
     private void Awake()
     {
@@ -85,4 +87,21 @@ public class EnemyMovement : MonoBehaviour
         animator.SetFloat("Vertical", targetDirection.y);
         animator.SetFloat("Speed", speed);
     }
+
+    public void DisableMovement()
+{
+    rb.velocity = Vector2.zero; // Stop the enemy's movement.
+    enabled = false; // Disable the script.
+}
+
+public void PlayDeathAnimation()
+    {
+        if (!hasPlayedDeathAnimation)
+        {
+            // Play the death animation here.
+            animator.SetTrigger("Death"); // Adjust the parameter name as per your Animator setup.
+            hasPlayedDeathAnimation = true;
+        }
+    }
+
 }

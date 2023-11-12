@@ -37,7 +37,7 @@ public class SkeletonGruntAwarenessController : MonoBehaviour
         }
 
         // Debug information
-        Debug.Log("AwareOfPlayer: " + AwareOfPlayer);
-        Debug.Log("DirectionToPlayer: " + DirectionToPlayer);
+        // Debug.Log("AwareOfPlayer: " + AwareOfPlayer);
+        // Debug.Log("DirectionToPlayer: " + DirectionToPlayer);
     }
 }

@@ -54,6 +54,8 @@ public class HealthController : MonoBehaviour
         {
             isDead = true; // Set the flag to prevent further death event invocation.
             OnDied.Invoke();
+
+    
         }
         else
         {
