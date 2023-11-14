@@ -13,6 +13,9 @@ TagManager:
   - DamageHUD
   - SpeedHUD
   - VisionHUD
+  - StoryItem
+  - KeyUI
+  - GlobalLight
   layers:
   - Default
   - TransparentFX
