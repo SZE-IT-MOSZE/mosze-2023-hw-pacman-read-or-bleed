@@ -18,6 +18,9 @@ public class PlayerMovement : MonoBehaviour
 public Transform spotlightTransform; // Drag and drop the 2D Light GameObject here
     public Vector3 offset; // The offset to adjust the spotlight's position
 
+    private bool canMove = true; // Flag to control player movement
+    public GameObject diedHUD;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,14 +47,19 @@ public Transform spotlightTransform; // Drag and drop the 2D Light GameObject he
 
      void FixedUpdate()
     {
-        Vector2 moveForce = PlayerInput * moveSpeed;
-        moveForce += forceToApply;
-        forceToApply /= forceDamping;
-        if (Mathf.Abs(forceToApply.x) <= 0.01f && Mathf.Abs(forceToApply.y) <= 0.01f)
+        if (canMove)
         {
-            forceToApply = Vector2.zero;
+            Vector2 moveForce = PlayerInput * moveSpeed;
+            moveForce += forceToApply;
+            forceToApply /= forceDamping;
+
+            if (Mathf.Abs(forceToApply.x) <= 0.01f && Mathf.Abs(forceToApply.y) <= 0.01f)
+            {
+                forceToApply = Vector2.zero;
+            }
+
+            rb.velocity = moveForce;
         }
-        rb.velocity = moveForce;
     }
     
 
@@ -69,4 +77,40 @@ public Transform spotlightTransform; // Drag and drop the 2D Light GameObject he
         rb.velocity = Vector2.zero;
         }
     }
+
+     public void DisableMovement()
+    {
+        canMove = false;
+        rb.velocity = Vector2.zero; // Stop the player's movement.
+        // You can add any other necessary actions when movement is disabled.
+    }
+
+    // Method to enable player movement
+    public void EnableMovement()
+    {
+        canMove = true;
+        // You can add any other necessary actions when movement is enabled.
+    }
+
+    public void PlayDeathAnimation()
+    {
+        // Add any additional logic or actions before playing the death animation.
+        animator.SetTrigger("Death"); // Adjust the parameter name as per your Animator setup.
+        // You may want to disable movement during the death animation, depending on your game design.
+        
+
+        // Enable DiedHUD at runtime
+
+        if (diedHUD != null)
+        {
+            diedHUD.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError("DiedHUD not assigned! Assign the DiedHUD object in the Unity editor.");
+        }
+
+DisableMovement();
+    }
+    
 }
