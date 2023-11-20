@@ -7,6 +7,15 @@ TagManager:
   - Wall
   - Bullet
   - Enemy
+  - Item
+  - Message
+  - HealthHUD
+  - DamageHUD
+  - SpeedHUD
+  - VisionHUD
+  - StoryItem
+  - KeyUI
+  - GlobalLight
   layers:
   - Default
   - TransparentFX
@@ -55,6 +64,9 @@ TagManager:
     locked: 0
   - name: Wall
     uniqueID: 1410833729
+    locked: 0
+  - name: Item
+    uniqueID: 1237920077
     locked: 0
   - name: PlayerAttack
     uniqueID: 1797133793

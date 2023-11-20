@@ -5,14 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame()
+    public void Game()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1 ); 
+        Debug.Log("Game mechanics testing map loaded");
+        SceneManager.LoadScene("Game"); 
     }
+
+    public void Dungeon()
+    {
+        Debug.Log("Dungeon testing map loaded!");
+        SceneManager.LoadScene("Dungeon");
+    }
+
 
     public void QuitGame()
     {
         Debug.Log("QUIT!");
-        Application.Quit();
+        Application.Quit(); 
     }
 }
