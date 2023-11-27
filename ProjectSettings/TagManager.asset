@@ -19,6 +19,7 @@ TagManager:
   - DiedHUD
   - PauseHUD
   - WinHUD
+  - LevelIntro
   layers:
   - Default
   - TransparentFX
