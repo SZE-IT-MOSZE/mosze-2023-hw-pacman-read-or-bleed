@@ -7,8 +7,8 @@ public class MainMenu : MonoBehaviour
 {
     public void Game()
     {
-        Debug.Log("Game loaded");
-        SceneManager.LoadScene("Game"); 
+        Debug.Log("Game mechanics testing map loaded");
+        SceneManager.LoadScene("Level1"); 
     }
 
     public void Test()

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class KeyItem : MonoBehaviour
 {
@@ -31,7 +32,7 @@ public class KeyItem : MonoBehaviour
             if (player != null)
             {
                 // Unlock the door if it exists.
-                // ...
+                LoadNextScene();
 
                 // Destroy the key item after use.
                 Destroy(gameObject);
@@ -72,5 +73,13 @@ public class KeyItem : MonoBehaviour
                 }
             }
         }
+    }
+    void LoadNextScene()
+    {
+        // Get the current scene index
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // Load the next scene
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
 }
