@@ -1,9 +1,0 @@
-{
-    "name": "TestsForHealth",
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ]
-}

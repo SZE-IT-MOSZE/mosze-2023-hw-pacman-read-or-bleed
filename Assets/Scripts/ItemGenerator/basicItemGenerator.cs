@@ -11,7 +11,7 @@ public class ItemGenerator : MonoBehaviour
         GenerateItems();
     }
 
-    void GenerateItems()
+    public void GenerateItems()
     {
         // Get the bounds of the large floor object
         Renderer floorRenderer = largeFloor.GetComponent<Renderer>();

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class InvincibilityController : MonoBehaviour
 {
-    private HealthController _healthController;
+    public HealthController _healthController;
 
-    private void Awake()
+    public void Awake()
     {
         _healthController = GetComponent<HealthController>();
     }
@@ -16,7 +16,7 @@ public class InvincibilityController : MonoBehaviour
         StartCoroutine(InvincibilityCoroutine(invincibilityDuration));
     }
 
-    private IEnumerator InvincibilityCoroutine(float invincibilityDuration)
+    public IEnumerator InvincibilityCoroutine(float invincibilityDuration)
     {
         _healthController.IsInvincible = true;
         yield return new WaitForSeconds(invincibilityDuration);

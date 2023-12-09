@@ -8,14 +8,14 @@ public class CameraFollow : MonoBehaviour
     public float followSpeed = 5.0f; // Adjust the follow speed
     public float zoomSize = 5.0f; // Adjust the zoom size
 
-    private Camera mainCamera;
+    public Camera mainCamera;
 
     void Start()
     {
         mainCamera = Camera.main;
     }
 
-    void LateUpdate()
+    public void LateUpdate()
     {
         if (player != null)
         {

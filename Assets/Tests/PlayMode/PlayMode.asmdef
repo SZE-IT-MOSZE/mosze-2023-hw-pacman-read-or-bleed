@@ -1,13 +1,16 @@
 {
-    "name": "cameraTest",
+    "name": "PlayMode",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "CameraFollow",
+        "Health",
+        "ItemGenerator",
+        "MapGeneration",
+        "MainMenu"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

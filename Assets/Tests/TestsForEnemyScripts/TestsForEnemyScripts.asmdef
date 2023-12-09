@@ -1,9 +1,0 @@
-{
-    "name": "TestsForEnemyScripts",
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ]
-}
