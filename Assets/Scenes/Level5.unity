@@ -1204,6 +1204,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 368280726}
     m_Modifications:
+    - target: {fileID: 1584882507175856004, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
+      propertyPath: speedIncreaseAmount
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2535634899360196089, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1010.004
@@ -1261,6 +1265,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 368280726}
     m_Modifications:
+    - target: {fileID: 1584882507175856004, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
+      propertyPath: speedIncreaseAmount
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2535634899360196089, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -609.213
@@ -3502,6 +3510,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 368280726}
     m_Modifications:
+    - target: {fileID: 1584882507175856004, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
+      propertyPath: speedIncreaseAmount
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2535634899360196089, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
       propertyPath: m_LocalPosition.x
       value: 372.85034
@@ -3559,6 +3571,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 368280726}
     m_Modifications:
+    - target: {fileID: 1584882507175856004, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
+      propertyPath: speedIncreaseAmount
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2535634899360196089, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1483.5883
@@ -28806,6 +28822,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 368280726}
     m_Modifications:
+    - target: {fileID: 1584882507175856004, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
+      propertyPath: speedIncreaseAmount
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2535634899360196089, guid: e840eb961178a0f4aa01dfd7ee3c9b72, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2016
@@ -29334,7 +29354,7 @@ Transform:
   m_GameObject: {fileID: 1802135263}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.01071979, w: 0.99994254}
-  m_LocalPosition: {x: -523, y: -37, z: -5.238613}
+  m_LocalPosition: {x: -515, y: 20, z: -5.238613}
   m_LocalScale: {x: 400, y: 400, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31655,7 +31675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3415256278965309363, guid: 1551e0cd520448e47ae8cda3a2cd7cbf, type: 3}
       propertyPath: chaseSpeed
-      value: 450
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 3415256278965309363, guid: 1551e0cd520448e47ae8cda3a2cd7cbf, type: 3}
       propertyPath: wanderingSpeed
