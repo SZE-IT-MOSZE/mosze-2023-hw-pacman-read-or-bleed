@@ -165,7 +165,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45acd7957e637344d878e078d6d14a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
-  healthIncreaseAmount: 50
-  textToUpdate: {fileID: 0}
-  animator: {fileID: 0}
+  healthIncreaseAmount: 25
