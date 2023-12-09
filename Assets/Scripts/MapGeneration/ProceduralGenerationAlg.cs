@@ -14,7 +14,7 @@ public static class ProceduralGenerationAlg
 
         for (int i = 0; i < walkLength; i++)
         {
-            var newPosition = previousposition + ProceduralGenerationAlg.Direction2D.GetRandomCardinalDirection();
+            var newPosition = previousposition + Direction2D.GetRandomCardinalDirection();
             path.Add(newPosition);
             previousposition = newPosition;
         }
@@ -24,7 +24,7 @@ public static class ProceduralGenerationAlg
     public static List<Vector2Int> RandomWalkCorridor(Vector2Int startPosition, int corridorLength)
     {
         List<Vector2Int> corridor = new List<Vector2Int>();
-        var direction = ProceduralGenerationAlg.Direction2D.GetRandomCardinalDirection();
+        var direction = Direction2D.GetRandomCardinalDirection();
         var currentPosition = startPosition;
         corridor.Add(currentPosition);
 
@@ -84,7 +84,7 @@ public static class ProceduralGenerationAlg
     private static void SplitVertically(int minWidth, Queue<BoundsInt> roomsQueue, BoundsInt room)
     {
         var xSplit = Random.Range(1, room.size.x);
-        BoundsInt room1 = new BoundsInt(room.min, new Vector3Int(xSplit, room.min.y, room.min.z));
+        BoundsInt room1 = new BoundsInt(room.min, new Vector3Int(xSplit, room.size.y, room.size.z));
         BoundsInt room2 = new BoundsInt(new Vector3Int(room.min.x + xSplit, room.min.y, room.min.z),
         new Vector3Int(room.size.x - xSplit, room.size.y, room.size.z));
         roomsQueue.Enqueue(room1);
@@ -101,7 +101,9 @@ public static class ProceduralGenerationAlg
         roomsQueue.Enqueue(room2);
     }
 
-    public static class Direction2D
+    
+}
+public static class Direction2D
     {
         public static List<Vector2Int> cardinalDirectionsList = new List<Vector2Int>
         {
@@ -111,9 +113,28 @@ public static class ProceduralGenerationAlg
             new Vector2Int(-1,0) //Left
         };
 
-        public static Vector2Int GetRandomCardinalDirection()
+    public static List<Vector2Int> diagonalDirectionsList = new List<Vector2Int>
+        {
+            new Vector2Int(1,1),  //Up-Right
+            new Vector2Int(1,-1),  //Right-Down
+            new Vector2Int(-1,-1), //Down-Left
+            new Vector2Int(-1,1) //Left-Up
+        };
+
+    public static List<Vector2Int> eightDirectionsList = new List<Vector2Int>
+    {
+            new Vector2Int(0,1),  //Up
+            new Vector2Int(1,1),  //Up-Right
+            new Vector2Int(1,0),  //Right
+            new Vector2Int(1,-1),  //Right-Down
+            new Vector2Int(0,-1), //Down
+            new Vector2Int(-1,-1), //Down-Left
+            new Vector2Int(-1,0), //Left
+            new Vector2Int(-1,1) //Left-Up
+    };
+
+    public static Vector2Int GetRandomCardinalDirection()
         {
             return cardinalDirectionsList[Random.Range(0, cardinalDirectionsList.Count)];
         }
     }
-}

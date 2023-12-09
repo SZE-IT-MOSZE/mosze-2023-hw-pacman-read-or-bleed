@@ -67,7 +67,7 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
         foreach (var position in floorpositions)
         {
             int neighboursCount = 0;
-            foreach (var direction in ProceduralGenerationAlg.Direction2D.cardinalDirectionsList)
+            foreach (var direction in Direction2D.cardinalDirectionsList)
             {
                 if (floorpositions.Contains(position + direction))
                     neighboursCount++;

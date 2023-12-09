@@ -143,6 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8b9d9676c69b449a090d64601d6549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedIncreaseAmount: 50
-  textToUpdate: {fileID: 0}
-  animator: {fileID: 0}
+  speedIncreaseAmount: 20

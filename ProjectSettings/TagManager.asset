@@ -17,6 +17,9 @@ TagManager:
   - KeyUI
   - GlobalLight
   - DiedHUD
+  - PauseHUD
+  - WinHUD
+  - LevelIntro
   layers:
   - Default
   - TransparentFX

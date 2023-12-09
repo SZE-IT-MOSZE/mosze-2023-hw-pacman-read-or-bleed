@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1c7d68afa37a834e9e81a23b5712aef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radiusIncreaseAmount: 50
+  radiusIncreaseAmount: 30
 --- !u!114 &8097843794784937478
 MonoBehaviour:
   m_ObjectHideFlags: 0

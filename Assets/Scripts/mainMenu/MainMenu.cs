@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     public void Game()
     {
         Debug.Log("Game mechanics testing map loaded");
-        SceneManager.LoadScene("Game"); 
+        SceneManager.LoadScene("Level1"); 
     }
 
     public void Dungeon()
