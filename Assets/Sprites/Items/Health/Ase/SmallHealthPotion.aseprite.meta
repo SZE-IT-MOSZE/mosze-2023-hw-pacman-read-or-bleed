@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 03de25769c1675a48890d83b152eb84c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: SmallHealthPotion_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 8
+      height: 11
+    spriteID: 49992b0595bb12f4ca660c303a8f254d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: SmallHealthPotion_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 23
+      width: 8
+      height: 11
+    spriteID: 5f57f80474327684ca241ea5b13b3510
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 23}
+  - name: SmallHealthPotion_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 42
+      width: 8
+      height: 11
+    spriteID: a0fb8339d57dca4489f0f8f883c71b5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 42}
+  - name: SmallHealthPotion_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 4
+      width: 8
+      height: 11
+    spriteID: 8d505de4349a89e4a97982449c37b311
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 20, y: 4}
+  - name: SmallHealthPotion_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 23
+      width: 8
+      height: 11
+    spriteID: 19bff13f5e310584d975ccca2d2ee835
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 20, y: 23}
+  - name: SmallHealthPotion_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 20
+      y: 42
+      width: 8
+      height: 11
+    spriteID: b9d76c068cb9a5b4f832317737a947c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 20, y: 42}
+  - name: SmallHealthPotion_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 8
+      height: 11
+    spriteID: bfc5dc979c0522b408bb5cde5fe58ba9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 4}
+  - name: SmallHealthPotion_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 23
+      width: 8
+      height: 11
+    spriteID: 90de1dc5da65b0f45a7bd16eced9eb5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 23}
+  - name: SmallHealthPotion_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 42
+      width: 8
+      height: 11
+    spriteID: da1acdd3496174f4e93a6495368593e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 42}
+  - name: SmallHealthPotion_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 8
+      height: 11
+    spriteID: 4f306dd7f66cb8f43b0180be70c27284
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -2146950052
+    name: SmallHealthPotion
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: SmallHealthPotion_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: 49992b0595bb12f4ca660c303a8f254d
+    - name: SmallHealthPotion_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: 5f57f80474327684ca241ea5b13b3510
+    - name: SmallHealthPotion_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: a0fb8339d57dca4489f0f8f883c71b5f
+    - name: SmallHealthPotion_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: 8d505de4349a89e4a97982449c37b311
+    - name: SmallHealthPotion_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: 19bff13f5e310584d975ccca2d2ee835
+    - name: SmallHealthPotion_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: b9d76c068cb9a5b4f832317737a947c7
+    - name: SmallHealthPotion_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: bfc5dc979c0522b408bb5cde5fe58ba9
+    - name: SmallHealthPotion_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: 90de1dc5da65b0f45a7bd16eced9eb5f
+    - name: SmallHealthPotion_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: da1acdd3496174f4e93a6495368593e5
+    - name: SmallHealthPotion_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: 4f306dd7f66cb8f43b0180be70c27284
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 16, y: 16}

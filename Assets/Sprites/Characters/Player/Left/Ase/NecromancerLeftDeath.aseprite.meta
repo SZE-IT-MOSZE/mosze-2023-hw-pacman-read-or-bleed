@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: df9dacafd6e8cba4b8f67a7c552ce65b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: NecromancerLeftDeath_Frame_0
+    originalName: 
+    pivot: {x: 0.6190476, y: -0.23333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 78
+      width: 21
+      height: 30
+    spriteID: 29863191a0897a7409dd4f155d91d874
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 78}
+  - name: NecromancerLeftDeath_Frame_1
+    originalName: 
+    pivot: {x: 0.6333334, y: -0.26666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 4
+      width: 30
+      height: 30
+    spriteID: 4fe96475bf9d17e41ac030fa2cdf0ee4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 4}
+  - name: NecromancerLeftDeath_Frame_2
+    originalName: 
+    pivot: {x: 0.6333334, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 4
+      width: 30
+      height: 30
+    spriteID: a2190e50848fd6341ab7b3f2faf5b3cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 4}
+  - name: NecromancerLeftDeath_Frame_3
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 31
+      height: 30
+    spriteID: a2d3cf5931d5ce2458394b7194b317dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: NecromancerLeftDeath_Frame_4
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.56521744}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 42
+      width: 28
+      height: 23
+    spriteID: 2197c101c12fbb24d9161083f762c630
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 42}
+  - name: NecromancerLeftDeath_Frame_5
+    originalName: 
+    pivot: {x: 0.46428567, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 42
+      width: 28
+      height: 28
+    spriteID: 7bdff79780fe19348ad211af27c1fb4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 42}
+  - name: NecromancerLeftDeath_Frame_6
+    originalName: 
+    pivot: {x: 0.5652173, y: -0.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 42
+      width: 23
+      height: 8
+    spriteID: d12112a7e7890c2438b2115f930a774b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 42}
+  - name: NecromancerLeftDeath_Frame_7
+    originalName: 
+    pivot: {x: 0.5652173, y: -0.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 58
+      width: 23
+      height: 8
+    spriteID: a6e77b19ccec5054e90f11be8cad0758
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 58}
+  - name: NecromancerLeftDeath_Frame_8
+    originalName: 
+    pivot: {x: 0.5652173, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 78
+      width: 23
+      height: 8
+    spriteID: f2741dbfe43c09940ad700e3b24524f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 78}
+  - name: NecromancerLeftDeath_Frame_9
+    originalName: 
+    pivot: {x: 0.5652173, y: -0.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 78
+      width: 23
+      height: 8
+    spriteID: 259362472f660454dae23a0388b175a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 78}
+  - name: NecromancerLeftDeath_Frame_10
+    originalName: 
+    pivot: {x: 0.5652173, y: -0.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 78
+      width: 23
+      height: 8
+    spriteID: 98fbfd7d40a641f498d38a4f4c46055e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 78}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1139874878
+    name: NecromancerLeftDeath
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: NecromancerLeftDeath_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 11
+        y: 7
+        width: 21
+        height: 30
+      spriteId: 29863191a0897a7409dd4f155d91d874
+    - name: NecromancerLeftDeath_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 5
+        y: 8
+        width: 30
+        height: 30
+      spriteId: 4fe96475bf9d17e41ac030fa2cdf0ee4
+    - name: NecromancerLeftDeath_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 5
+        y: 9
+        width: 30
+        height: 30
+      spriteId: a2190e50848fd6341ab7b3f2faf5b3cb
+    - name: NecromancerLeftDeath_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 9
+        y: 9
+        width: 31
+        height: 30
+      spriteId: a2d3cf5931d5ce2458394b7194b317dc
+    - name: NecromancerLeftDeath_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 11
+        y: 13
+        width: 28
+        height: 23
+      spriteId: 2197c101c12fbb24d9161083f762c630
+    - name: NecromancerLeftDeath_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 11
+        y: 10
+        width: 28
+        height: 28
+      spriteId: 7bdff79780fe19348ad211af27c1fb4f
+    - name: NecromancerLeftDeath_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 11
+        y: 6
+        width: 23
+        height: 8
+      spriteId: d12112a7e7890c2438b2115f930a774b
+    - name: NecromancerLeftDeath_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 3
+        width: 23
+        height: 8
+      spriteId: a6e77b19ccec5054e90f11be8cad0758
+    - name: NecromancerLeftDeath_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 11
+        y: 4
+        width: 23
+        height: 8
+      spriteId: f2741dbfe43c09940ad700e3b24524f8
+    - name: NecromancerLeftDeath_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 3
+        width: 23
+        height: 8
+      spriteId: 259362472f660454dae23a0388b175a5
+    - name: NecromancerLeftDeath_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 11
+        y: 3
+        width: 23
+        height: 8
+      spriteId: 98fbfd7d40a641f498d38a4f4c46055e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 48, y: 48}
